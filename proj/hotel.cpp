@@ -163,7 +163,7 @@ int main() {
 	cout << "CHECK-IN CONPlETE" << endl;
 	cout << "Enjoy your stay " << guestname << endl;
 
-	cout << "hi";
+	
 	 
 
 	return 0;
