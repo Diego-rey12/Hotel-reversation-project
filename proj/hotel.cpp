@@ -173,7 +173,7 @@ int main() {
 	cout << "Enjoy your stay " << guestname << endl;
 
 	
-	 cout << "hollo";
+	 
 
 	return 0;
 }
