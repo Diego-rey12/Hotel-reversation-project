@@ -102,9 +102,18 @@ int main() {
 
 	cout << "Please enter 1 for single 2 for double 3 for triple and 4 for luxary room " << endl;
 	cin >> roomtype;
+	while ((roomtype < 1) || (roomtype > 4)) {
+	cout << "NOT VALID OPTION. please enter option 1,2,3,4" << endl;
+	cin >> roomtype;
+}
 
 	cout << "How Many night do you entend on staying" << endl;
 	cin >> days;
+	while (days <= 0) {
+	cout << "NOT VALID OPTION. Please enter a diffrent number if days. " << endl;
+	cin >> days;
+}
+
 
 	cout << " Would you like to contnue with the booking(Y/N)" << endl;
 	cin >> option;
